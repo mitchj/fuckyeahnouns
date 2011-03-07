@@ -1,2 +1,7 @@
 public/images/*
 log/*
+.DS_Store
+Thumbs.db
+.*.sw?
+*.pyc
+*.pyo

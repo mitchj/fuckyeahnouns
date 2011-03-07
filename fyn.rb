@@ -104,13 +104,13 @@ module FuckYeahNouns
     caption.fill('white')
     caption.stroke('black')
     caption.font_stretch = Magick::ExtraCondensedStretch
-    caption.font('Helvetica-Bold')
+    caption.font('Helvetica Neue')
     caption.stroke_width(2)
     caption.pointsize(48)
     caption.font_weight(800)
     caption.text_align(Magick::CenterAlign)
 
-    caption.text(width/2.0, height-50, "FUCK YEAH\n#{noun.upcase}")
+    caption.text(width/2.0, height-50, "HECK YEAH\n#{noun.upcase}")
     caption.draw(picture)
 
     return picture.to_blob
